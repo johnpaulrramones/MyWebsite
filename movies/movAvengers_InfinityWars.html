@@ -1,0 +1,228 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>Director: Avengers: Infinity Wars</title>
+		<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+		<link rel="shortcut icon" href="../img/headLogo.png"/>
+		<script src="../js/script.js"></script>
+	</head>
+	<body onload="startTime();">
+		<header>
+			<div class="margin">
+			<div class="WebTitle" id="margin"><img src="../img/logo.png" height="40"/>DIRECTOR<br/><span class="motto">You watch, you decide.</span></div>
+				<div class="nav">
+					<label for="toogle">&#9776;</label>
+					<input type="checkbox" id="toogle"/>
+					<div class="menu">
+						<ul>
+							<a href="../index.html"><li class="firstchild">Home</li></a>
+							<a href="../Movies.html"><li id="act">Movies</li></a>
+							<a href="../ContactUS.html"><li>Contact Us</li></a>
+							<a href="../about.html"><li>About</li></a>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+		
+		
+		
+		
+		<button type="sumbit" id="click">Submit</button>
+		<div id="shade"></div>
+        <div id="modal" >
+			<div class="closeThis">X</div>
+            <img src="../img/movAvengers_InfinityWars.jpg" id="close" width="80%"/>
+        </div>
+		
+		<div id="shade01"></div>
+        <div id="modal01" >
+			<div class="closeThis01">X</div>
+            <img src="../img/movAvengers_InfinityWars01.jpg" id="close01" width="80%"/>
+        </div>
+		
+		<div id="shade02"></div>
+        <div id="modal02" >
+			<div class="closeThis02">X</div>
+            <img src="../img/movAvengers_InfinityWars02.jpg" id="close02" width="80%"/>
+        </div>
+		<div id="shade03"></div>
+        <div id="modal03" >
+			<div class="closeThis03">X</div>
+            <img src="../img/movAvengers_InfinityWars03.jpg" id="close03" width="80%"/>
+        </div>
+		
+		<div class="margin" >
+			<div class="movBanner">
+			<img src="../img/movAvengers_InfinityWars.jpg" width="100%" id="start"class="ban">
+			<img src="../img/movAvengers_InfinityWars01.jpg" width="100%" id="start01" class="side">
+			<img src="../img/movAvengers_InfinityWars02.jpg" width="100%" id="start02"class="side">
+			<img src="../img/movAvengers_InfinityWars03.jpg" width="100%" id="start03"class="side">
+		</div>
+				
+					
+		<script type="text/javascript">
+		 
+		 	var modal01= document.getElementById('modal01');
+            var shade01= document.getElementById('shade01');
+			var modal02= document.getElementById('modal02');
+            var shade02= document.getElementById('shade02');
+			var modal03= document.getElementById('modal03');
+            var shade03= document.getElementById('shade03');
+            var modal= document.getElementById('modal');
+            var shade= document.getElementById('shade');
+			
+            document.getElementById('start').onclick= function()
+			{
+				modal.style.display=shade.style.display= 'block';
+            };
+            document.getElementById('close').onclick= function()
+			{
+				modal.style.display=shade.style.display= 'none';
+            };
+			
+
+			  document.getElementById('start01').onclick= function()
+			{
+				modal01.style.display=shade.style.display= 'block';
+            };
+            document.getElementById('close01').onclick= function()
+			{
+				modal01.style.display=shade.style.display= 'none';
+            };
+			
+			  document.getElementById('start02').onclick= function()
+			{
+				modal02.style.display=shade.style.display= 'block';
+            };
+            document.getElementById('close02').onclick= function()
+			{
+				modal02.style.display=shade.style.display= 'none';
+            };
+			
+			  document.getElementById('start03').onclick= function()
+			{
+				modal03.style.display=shade.style.display= 'block';
+            };
+            document.getElementById('close03').onclick= function()
+			{
+				modal03.style.display=shade.style.display= 'none';
+            };
+        </script>
+				
+				
+				
+				
+				
+				<br/><div class="movieTitle"><h1>Avengers: Infinity Wars</h1></div>
+					<div class="review">
+				
+					<table align="center" width="100%">
+						<tr>
+							<td align="center">
+					<div class="rating" align="center" >
+					<strong>94%</strong><br/>
+					Viewer Choice<br/>
+					Rater : 120,159
+					<div class="Like" onmousedown="LikeChoice()"></div><div class="Dislike"onmousedown="DislikeChoice()"></div>
+				</div>
+				<div class="rating" align="center" onmousedown="Acting()">
+					<strong>95%</strong><br/>
+					Acting<br/>
+					Rater : 100,093
+					<div class="Like" onmousedown="LikeAct()"></div><div class="Dislike"onmousedown="DislikeAct()"></div>
+				</div>
+				<div class="rating" align="center" onmousedown="myFunction(this,'red')">
+					<strong>95%</strong><br/>
+					Cinematography<br/>
+					Rater : 133,152
+					<div class="Like" onmousedown="LikeCine()"></div><div class="Dislike"onmousedown="DislikeCine()"></div>
+				</div>
+				<div class="rating" align="center" onmousedown="myFunction(this,'red')">
+					<strong>91%</strong><br/>
+					Music<br/>
+					Rater : 102,101
+					<div class="Like" onmousedown="LikeMusic()"></div><div class="Dislike"onmousedown="DislikeMusic()"></div>
+				</div>
+						</td>
+						</tr>
+					</table>
+					<h2>Reviews</h2>
+				</div>
+				<div class="MovieInfo">
+					<div class="movieTrailer">
+						<iframe width="100%" height="480" src="https://www.youtube.com/embed/6ZfuNTqbHE8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					</div>
+				
+				<div class="dload">
+					<img src="../img/dl.gif"/ width="200px" height="100px" onclick="openWin()">
+					<h2 onclick="openWin1()">DOWNLOAD</h2>
+					</div>
+				
+					<div class="Info">
+					<h2>Movie Information</h2>
+					<h4>Genre:</h4>  Action | Adventure | Fantasy | Sci-Fi</br>
+					<h4>Duration:</h4>149 min</br>
+					<h4>Airing Date:</h4>  27 April 2018 (USA)</br>
+					<h4>Production:</h4>  Warner Bros., Atlas Entertainment, Cruel & Unusual Films </br>
+					<h4>Country:</h4> USA </br>
+					</div>
+					<div class="Info">
+					<h2>Behind the Scene</h2>
+					<h4>Director/s:</h4>  Anthony Russo, Joe Russo</br>
+					<h4>Writer/s:</h4>  Christopher Markus (screenplay by), Stephen McFeely (screenplay by)</br>
+					<h4>Casts:</h4>  Robert Downey Jr., Chris Hemsworth, Mark Ruffalo, Chris Evans, Scarlett Johansson, Don Cheadle, Benedict Cumberbatch, Tom Holland, Chadwick Boseman, Zoe Saldana...  </br>
+					</div>
+					
+					<div class="synopsis">
+					<h2>Synopsis</h2>
+					<p>As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.</p>
+					</div>
+				
+				<div class="Comment">
+					<h2>Comment Section</h2>
+					<form onsubmit="confirmInput()" action="">
+					<input type="text" value="" id="fname" placeholder="Comment here.." size="50" class="commenthere">
+					<input type="submit" class="commenthere" >
+				</form>
+							<hr/><p><span class="commenter">Kerrod Nolan :</span> What a fantastic movie. Cannot wait for Avengers 4, next year.﻿ </p>
+					<hr/><p><span class="commenter">DomTheBomb :</span>Just saw this who else loved it god can’t wait for next year﻿ </p>
+					<hr/><p><span class="commenter">afarensis  :</span> If you think that Thor's entrance on Wakanda wasn't the best scene in any movie ever...don't even talk to me﻿ .</p>
+					<hr/><p><span class="commenter">LEGENDARY APOCLYPSE  :</span> 10 YEARS IN WAIT FOR THIS MOMENT!!!!﻿ - I already saw Infinity War. And Justice League was way better than Infinity War.</p>
+					<hr/><p><span class="commenter">RationalLllama  :</span>Ok I just got back from watching this movie. It is the best MCU movie hands down. Easy 10/10 for me and I don't give out 10/10s easily. I'm not saying the movie is flawless but for what it is, it is the perfect superhero movie. However be warned! There are scenes in this trailer that are not in the movie.﻿</p>
+					<hr/><p><span class="commenter">DDarwin Chow  :</span> Notice how at the end of the film only the original avengers(without Hawkeye)  from the first film survive with few exceptions like Rhodes and Rocket</p>
+					<hr/><p><span class="commenter">Ham Bone  :</span> Who else is here after finally watching this masterpiece!?</p>
+					<hr/><p><span class="commenter">Julia S  :</span> Thor’s entrance in Wakanda was one of the most epic scenes in Marvel history﻿ </p>
+					<hr/><p><span class="commenter">Just Some Guy without a Mustache  :</span>  This trailer has been trending as number 1 for over 2 days straight now. I don't expect anything else from the amazing potential of this movie.﻿</p>
+					<hr/><p><span class="commenter">Prof. Pickles   :</span> And this is called payoff. You make tons of amazing movies to build up to a climax. Take a hint DC.</p>
+			
+				
+				</div>
+				</div>
+			
+				
+<div class="before">
+</div>
+
+<div class="contact" align="center">
+		<div class="margin">
+ <H2>Follow us on social media</h2>
+
+		<hr><BR/>
+			
+			<a href="https://www.facebook.com"><img alt="icnfacebook" src="../img/icnfaceBook.png"/></a>
+			<a href="https://www.twitter.com"><img alt="icntwitter" src="../img/icntwitter.png"/></a>
+			<a href="https://www.tumblr.com"><img alt="icntmblr" src="../img/icntmblr.png"/></a>
+			<a href="https://www.linkedin.com"><img alt="icnin" src="../img/icnin.png"/></a>
+			<a href="https://www.google.com"><img alt="icngoogle" src="../img/icngoogle.png"/></a>
+
+		</div>
+		</div>
+		<div class="margin">
+	
+		</div>
+	<footer>
+			All Rights Reserved 2018 <div id="txt"></div>
+		</footer>
+	</body>
+</html>

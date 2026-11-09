@@ -1,0 +1,219 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>Director: Incredibles 2</title>
+		<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+		<link rel="shortcut icon" href="../img/headLogo.png"/>
+		
+		<script src="../js/script.js"></script>
+	</head>
+	<body onload="startTime();">
+		<header>
+			<div class="margin">
+			<div class="WebTitle" id="margin"><img src="../img/logo.png" height="40"/>DIRECTOR<br/><span class="motto">You watch, you decide.</span></div>
+				<div class="nav">
+					<label for="toogle">&#9776;</label>
+					<input type="checkbox" id="toogle"/>
+					<div class="menu">
+						<ul>
+							<a href="../index.html"><li class="firstchild">Home</li></a>
+							<a href="../Movies.html"><li id="act">Movies</li></a>
+							<a href="../ContactUS.html"><li>Contact Us</li></a>
+							<a href="../about.html"><li>About</li></a>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+		
+				
+		<div id="shade"></div>
+        <div id="modal" >
+			<div class="closeThis">X</div>
+            <img src="../img/movIncredibles2.jpeg" id="close" width="80%"/>
+        </div>
+		
+		<div id="shade01"></div>
+        <div id="modal01" >
+			<div class="closeThis01">X</div>
+            <img src="../img/movIncredibles201.jpg" id="close01" width="80%"/>
+        </div>
+		
+		<div id="shade02"></div>
+        <div id="modal02" >
+			<div class="closeThis02">X</div>
+            <img src="../img/movIncredibles202.jpg" id="close02" width="80%"/>
+        </div>
+		<div id="shade03"></div>
+        <div id="modal03" >
+			<div class="closeThis03">X</div>
+            <img src="../img/movIncredibles203.jpg" id="close03" width="80%"/>
+        </div>
+		
+		<div class="margin" >
+			<div class="movBanner">
+			<img src="../img/movIncredibles2.jpeg" width="100%" id="start"class="ban">
+			<img src="../img/movIncredibles201.jpg" width="100%" id="start01" class="side">
+			<img src="../img/movIncredibles202.jpg" width="100%" id="start02"class="side">
+			<img src="../img/movIncredibles203.jpg" width="100%" id="start03"class="side">
+		</div>
+				
+					
+		<script type="text/javascript">
+		 
+		 	var modal01= document.getElementById('modal01');
+            var shade01= document.getElementById('shade01');
+			var modal02= document.getElementById('modal02');
+            var shade02= document.getElementById('shade02');
+			var modal03= document.getElementById('modal03');
+            var shade03= document.getElementById('shade03');
+            var modal= document.getElementById('modal');
+            var shade= document.getElementById('shade');
+			
+            document.getElementById('start').onclick= function()
+			{
+				modal.style.display=shade.style.display= 'block';
+            };
+            document.getElementById('close').onclick= function()
+			{
+				modal.style.display=shade.style.display= 'none';
+            };
+			
+
+			  document.getElementById('start01').onclick= function()
+			{
+				modal01.style.display=shade.style.display= 'block';
+            };
+            document.getElementById('close01').onclick= function()
+			{
+				modal01.style.display=shade.style.display= 'none';
+            };
+			
+			  document.getElementById('start02').onclick= function()
+			{
+				modal02.style.display=shade.style.display= 'block';
+            };
+            document.getElementById('close02').onclick= function()
+			{
+				modal02.style.display=shade.style.display= 'none';
+            };
+			
+			  document.getElementById('start03').onclick= function()
+			{
+				modal03.style.display=shade.style.display= 'block';
+            };
+            document.getElementById('close03').onclick= function()
+			{
+				modal03.style.display=shade.style.display= 'none';
+            };
+        </script>	
+				
+				
+				<div class="movieTitle"><h1>Incredibles 2</h1></div>
+					<div class="review">
+				
+					<table align="center" width="100%">
+						<tr>
+							<td align="center">
+					<div class="rating" align="center">
+					<strong>94%</strong><br/>
+					Viewer Choice<br/>
+					Rater : 20,586<div class="Like" onmousedown="LikeChoice()"></div><div class="Dislike"onmousedown="DislikeChoice()"></div>
+				</div>
+				<div class="rating" align="center">
+					<strong>95%</strong><br/>
+					Acting<br/>
+					Rater : 18,122<div class="Like" onmousedown="LikeAct()"></div><div class="Dislike"onmousedown="DislikeAct()"></div>
+				</div>
+				<div class="rating" align="center">
+					<strong>95%</strong><br/>
+					Cinematography<br/>
+					Rater : 16,752<div class="Like" onmousedown="LikeCine()"></div><div class="Dislike"onmousedown="DislikeCine()"></div>
+				</div>
+				<div class="rating" align="center">
+					<strong>91%</strong><br/>
+					Music<br/>
+					Rater : 16,671
+					<div class="Like" onmousedown="LikeMusic()"></div><div class="Dislike"onmousedown="DislikeMusic()"></div>
+				</div>
+						</td>
+						</tr>
+					</table>
+					<h2>Reviews</h2>
+				</div>
+				<div class="MovieInfo">
+					<div class="movieTrailer">
+						<iframe width="100%" alt="Loading Video" height="480" src="https://www.youtube.com/embed/i5qOzqD9Rms" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					</div>
+
+					<div class="dload">
+					<img src="../img/dl.gif"/ width="200px" height="100px" onclick="openWin()">
+					<h2 onclick="openWin1()">DOWNLOAD</h2>
+					</div>
+				
+				
+					<div class="Info">
+					<h2>Movie Information</h2>
+					<h4>Genre:</h4>  Animation | Action | Adventure | Comedy | Family | Sci-Fi</br>
+					<h4>Duration:</h4>91 min</br>
+					<h4>Airing Date:</h4> 15 June 2018 (USA) </br>
+					<h4>Production:</h4>   Pixar Animation Studios, Walt Disney Pictures </br>
+					<h4>Country:</h4> USA </br>
+					</div>
+					<div class="Info">
+					<h2>Behind the Scene</h2>
+					<h4>Director/s:</h4>  Brad Bird</br>
+					<h4>Writer/s:</h4> Brad Bird</br>
+					<h4>Casts:</h4>  Sophia Bush, Samuel L. Jackson, Holly Hunter </br>
+					</div>
+					
+					<div class="synopsis">
+					<h2>Synopsis</h2>
+					<p>Bob Parr (Mr. Incredible) is left to care for Jack-Jack while Helen (Elastigirl) is out saving the world.</p>
+					</div>
+				
+				<div class="Comment">
+					<h2>Comment Section</h2>
+					<form onsubmit="confirmInput()" action="">
+					<input type="text" value="" id="fname" placeholder="Comment here.." size="50" class="commenthere">
+					<input type="submit" class="commenthere" >
+				</form>
+							<hr/><p><span class="commenter">Alex Green :</span> This theater is gonna be filled with a bunch of college students</p>
+					<hr/><p><span class="commenter">La Bola Rosada :</span> At least his supersuit is right there, too bad that legendary fight between him & her wife would not happen again﻿ </p>
+					<hr/><p><span class="commenter">hahayourfunny94  :</span> I bet childbirth was super easy for Elastigirl﻿.</p>
+					<hr/><p><span class="commenter">froggo :</span> Y’all here hyped and all. But I’m still here wondering why the sister was holding her chopsticks like that??? (0:12)﻿ </p>
+					<hr/><p><span class="commenter">CappyFan2003  :</span> Hopefully in The Incredibles 3, we'll be able to see the kids all grown up.</p>
+					<hr/><p><span class="commenter">Subhan Rana  :</span> Sorry kids but the theater is gonna be full of us teens. We waited 14 years for this to come out</p>
+					<hr/><p><span class="commenter">Max-A-Mus  :</span> 1:13 When you have to stay home and watch the kids because it's 2018 and your wife is a strong independent superhero as well...﻿ </p>
+				</div>
+				
+				
+				</div>
+				</div>
+			
+				
+<div class="before">
+</div>
+
+<div class="contact" align="center">
+		<div class="margin">
+ <H2>Follow us on social media</h2>
+
+		<hr><BR/>
+			
+			<a href="https://www.facebook.com"><img alt="icnfacebook" src="../img/icnfaceBook.png"/></a>
+			<a href="https://www.twitter.com"><img alt="icntwitter" src="../img/icntwitter.png"/></a>
+			<a href="https://www.tumblr.com"><img alt="icntmblr" src="../img/icntmblr.png"/></a>
+			<a href="https://www.linkedin.com"><img alt="icnin" src="../img/icnin.png"/></a>
+			<a href="https://www.google.com"><img alt="icngoogle" src="../img/icngoogle.png"/></a>
+
+		</div>
+		</div>
+		<div class="margin">
+	
+		</div>
+		<footer>
+			All Rights Reserved 2018 <div id="txt"></div>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,218 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>Director: Deadpool2</title>
+		<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+		<link rel="shortcut icon" href="../img/headLogo.png"/>
+		
+		<script src="../js/script.js"></script>
+	</head>
+	<body onload="startTime();">
+		<header>
+			<div class="margin">
+			<div class="WebTitle" id="margin"><img src="../img/logo.png" height="40"/>DIRECTOR<br/><span class="motto">You watch, you decide.</span></div>
+				<div class="nav">
+					<label for="toogle">&#9776;</label>
+					<input type="checkbox" id="toogle"/>
+					<div class="menu">
+						<ul>
+							<a href="../index.html"><li class="firstchild">Home</li></a>
+							<a href="../Movies.html"><li id="act">Movies</li></a>
+							<a href="../ContactUS.html"><li>Contact Us</li></a>
+							<a href="../about.html"><li>About</li></a>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+		
+				
+		<div id="shade"></div>
+        <div id="modal" >
+			<div class="closeThis">X</div>
+            <img src="../img/movDeadpool2.jpg" id="close" width="80%"/>
+        </div>
+		
+		<div id="shade01"></div>
+        <div id="modal01" >
+			<div class="closeThis01">X</div>
+            <img src="../img/movDeadpool201.jpg" id="close01" width="80%"/>
+        </div>
+		
+		<div id="shade02"></div>
+        <div id="modal02" >
+			<div class="closeThis02">X</div>
+            <img src="../img/movDeadpool202.jpg" id="close02" width="80%"/>
+        </div>
+		<div id="shade03"></div>
+        <div id="modal03" >
+			<div class="closeThis03">X</div>
+            <img src="../img/movDeadpool203.jpg" id="close03" width="80%"/>
+        </div>
+		
+		<div class="margin" >
+			<div class="movBanner">
+			<img src="../img/movDeadpool2.jpg" width="100%" id="start"class="ban">
+			<img src="../img/movDeadpool201.jpg" width="100%" id="start01" class="side">
+			<img src="../img/movDeadpool202.jpg" width="100%" id="start02"class="side">
+			<img src="../img/movDeadpool203.jpg" width="100%" id="start03"class="side">
+		</div>
+				
+					
+		<script type="text/javascript">
+		 
+		 	var modal01= document.getElementById('modal01');
+            var shade01= document.getElementById('shade01');
+			var modal02= document.getElementById('modal02');
+            var shade02= document.getElementById('shade02');
+			var modal03= document.getElementById('modal03');
+            var shade03= document.getElementById('shade03');
+            var modal= document.getElementById('modal');
+            var shade= document.getElementById('shade');
+			
+            document.getElementById('start').onclick= function()
+			{
+				modal.style.display=shade.style.display= 'block';
+            };
+            document.getElementById('close').onclick= function()
+			{
+				modal.style.display=shade.style.display= 'none';
+            };
+			
+
+			  document.getElementById('start01').onclick= function()
+			{
+				modal01.style.display=shade.style.display= 'block';
+            };
+            document.getElementById('close01').onclick= function()
+			{
+				modal01.style.display=shade.style.display= 'none';
+            };
+			
+			  document.getElementById('start02').onclick= function()
+			{
+				modal02.style.display=shade.style.display= 'block';
+            };
+            document.getElementById('close02').onclick= function()
+			{
+				modal02.style.display=shade.style.display= 'none';
+            };
+			
+			  document.getElementById('start03').onclick= function()
+			{
+				modal03.style.display=shade.style.display= 'block';
+            };
+            document.getElementById('close03').onclick= function()
+			{
+				modal03.style.display=shade.style.display= 'none';
+            };
+        </script>	
+				
+				
+				<div class="movieTitle"><h1>Deadpool 2</h1></div>
+					<div class="review">
+				
+					<table align="center" width="100%">
+						<tr>
+							<td align="center">
+					<div class="rating" align="center">
+					<strong>94%</strong><br/>
+					Viewer Choice<br/>
+					Rater : 60,159<div class="Like" onmousedown="LikeChoice()"></div><div class="Dislike"onmousedown="DislikeChoice()"></div>
+				</div>
+				<div class="rating" align="center">
+					<strong>95%</strong><br/>
+					Acting<br/>
+					Rater : 50,093<div class="Like" onmousedown="LikeAct()"></div><div class="Dislike"onmousedown="DislikeAct()"></div>
+				</div>
+				<div class="rating" align="center">
+					<strong>95%</strong><br/>
+					Cinematography<br/>
+					Rater : 51,152
+					<div class="Like" onmousedown="LikeCine()"></div><div class="Dislike"onmousedown="DislikeCine()"></div>
+				</div>
+				<div class="rating" align="center">
+					<strong>91%</strong><br/>
+					Music<br/>
+					Rater : 51,101
+					<div class="Like" onmousedown="LikeMusic()"></div><div class="Dislike"onmousedown="DislikeMusic()"></div>
+				</div>
+						</td>
+						</tr>
+					</table>
+					<h2>Reviews</h2>
+				</div>
+				<div class="MovieInfo">
+					<div class="movieTrailer">
+						<iframe width="100%" height="480" src="https://www.youtube.com/embed/20bpjtCbCz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					</div>
+				
+				<div class="dload">
+					<img src="../img/dl.gif"/ width="200px" height="100px" onclick="openWin()">
+					<h2 onclick="openWin1()">DOWNLOAD</h2>
+					</div>
+				
+					<div class="Info">
+					<h2>Movie Information</h2>
+					<h4>Genre:</h4>   Action | Adventure | Comedy | Sci-Fi</br>
+					<h4>Duration:</h4>91 min</br>
+					<h4>Airing Date:</h4> 18 May 2018 (USA) </br>
+					<h4>Production:</h4> Donners' Company, Kinberg Genre, Marvel Entertainment</br>
+					<h4>Country:</h4>  Vancouver, British Columbia, Canada </br>
+					</div>
+					<div class="Info">
+					<h2>Behind the Scene</h2>
+					<h4>Director/s:</h4>  David Leitch</br>
+					<h4>Writer/s:</h4>  Rhett Reese, Paul Wernick </br>
+					<h4>Casts:</h4> Morena Baccarin, Josh Brolin, Zazie Beetz  </br>
+					</div>
+					
+					<div class="synopsis">
+					<h2>Synopsis</h2>
+					<p>After surviving a near fatal bovine attack, a disfigured cafeteria chef (Wade Wilson) struggles to fulfill his dream of becoming Mayberry's hottest bartender while also learning to cope with his lost sense of taste. Searching to regain his spice for life, as well as a flux capacitor, Wade must battle ninjas, the Yakuza, and a pack of sexually aggressive canines, as he journeys around the world to discover the importance of family, friendship, and flavor - finding a new taste for adventure and earning the coveted coffee mug title of World's Best Lover.</p>
+					</div>
+				
+				<div class="Comment">
+					<h2>Comment Section</h2>
+					<form onsubmit="confirmInput()" action="">
+					<input type="text" value="" id="fname" placeholder="Comment here.." size="50" class="commenthere">
+					<input type="submit" class="commenthere" >
+				</form>
+							<hr/><p><span class="commenter">James Van Bergeyk :</span> That's so dark, sure you're not from the DC universe?﻿ </p>
+					<hr/><p><span class="commenter">Gokul Rajeev  :</span> "So dark, sure you're not from the DC universe" Duuuude, thaaaaaaat burn!!!﻿ </p>
+					<hr/><p><span class="commenter">Jo Po  :</span> Peter's superpower is having a tucked in shirt, no matter the situation.﻿ </p>
+					<hr/><p><span class="commenter">Comic's TV  :</span> Is here anyone who watched this trailer after watching infinity war movie hit like :)﻿ </p>
+					<hr/><p><span class="commenter">Fish Smell Bad  :</span>You know Peter is gonna save the day in the end﻿ </p>
+					<hr/><p><span class="commenter">dody armanto :</span> can't wait to watch deadpool after i watched infinity war this afternoon just want to know how they troll thanos/cable﻿.</p>
+				</div>
+				
+				
+				</div>
+				</div>
+			
+				
+<div class="before">
+</div>
+
+<div class="contact" align="center">
+		<div class="margin">
+ <H2>Follow us on social media</h2>
+
+		<hr><BR/>
+			
+			<a href="https://www.facebook.com"><img alt="icnfacebook" src="../img/icnfaceBook.png"/></a>
+			<a href="https://www.twitter.com"><img alt="icntwitter" src="../img/icntwitter.png"/></a>
+			<a href="https://www.tumblr.com"><img alt="icntmblr" src="../img/icntmblr.png"/></a>
+			<a href="https://www.linkedin.com"><img alt="icnin" src="../img/icnin.png"/></a>
+			<a href="https://www.google.com"><img alt="icngoogle" src="../img/icngoogle.png"/></a>
+
+		</div>
+		</div>
+		<div class="margin">
+	
+		</div>
+	<footer>
+			All Rights Reserved 2018 <div id="txt"></div>
+		</footer>
+	</body>
+</html>

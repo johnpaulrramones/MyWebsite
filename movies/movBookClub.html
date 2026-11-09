@@ -1,0 +1,220 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>Director: Book Club</title>
+		<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+		
+		<script src="../js/script.js"></script>
+		<link rel="shortcut icon" href="../img/headLogo.png"/>
+	</head>
+	<body onload="startTime();">
+		<header>
+			<div class="margin">
+			<div class="WebTitle" id="margin"><img src="../img/logo.png" height="40"/>DIRECTOR<br/><span class="motto">You watch, you decide.</span></div>
+				<div class="nav">
+					<label for="toogle">&#9776;</label>
+					<input type="checkbox" id="toogle"/>
+					<div class="menu">
+						<ul>
+							<a href="../index.html"><li class="firstchild">Home</li></a>
+							<a href="../Movies.html"><li id="act">Movies</li></a>
+							<a href="../ContactUS.html"><li>Contact Us</li></a>
+							<a href="../about.html"><li>About</li></a>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+		
+			
+			
+		<div id="shade"></div>
+        <div id="modal" >
+			<div class="closeThis">X</div>
+            <img src="../img/movBookClub.jpg" id="close" width="80%"/>
+        </div>
+		
+		<div id="shade01"></div>
+        <div id="modal01" >
+			<div class="closeThis01">X</div>
+            <img src="../img/movBookClub01.jpg" id="close01" width="80%"/>
+        </div>
+		
+		<div id="shade02"></div>
+        <div id="modal02" >
+			<div class="closeThis02">X</div>
+            <img src="../img/movBookClub02.jpg" id="close02" width="80%"/>
+        </div>
+		<div id="shade03"></div>
+        <div id="modal03" >
+			<div class="closeThis03">X</div>
+            <img src="../img/movBookClub03.jpg" id="close03" width="80%"/>
+        </div>
+		
+		<div class="margin" >
+			<div class="movBanner">
+			<img src="../img/movBookClub.jpg" width="100%" id="start"class="ban">
+			<img src="../img/movBookClub01.jpg" width="100%" id="start01" class="side">
+			<img src="../img/movBookClub02.jpg" width="100%" id="start02"class="side">
+			<img src="../img/movBookClub03.jpg" width="100%" id="start03"class="side">
+		</div>
+				
+					
+		<script type="text/javascript">
+		 
+		 	var modal01= document.getElementById('modal01');
+            var shade01= document.getElementById('shade01');
+			var modal02= document.getElementById('modal02');
+            var shade02= document.getElementById('shade02');
+			var modal03= document.getElementById('modal03');
+            var shade03= document.getElementById('shade03');
+            var modal= document.getElementById('modal');
+            var shade= document.getElementById('shade');
+			
+            document.getElementById('start').onclick= function()
+			{
+				modal.style.display=shade.style.display= 'block';
+            };
+            document.getElementById('close').onclick= function()
+			{
+				modal.style.display=shade.style.display= 'none';
+            };
+			
+
+			  document.getElementById('start01').onclick= function()
+			{
+				modal01.style.display=shade.style.display= 'block';
+            };
+            document.getElementById('close01').onclick= function()
+			{
+				modal01.style.display=shade.style.display= 'none';
+            };
+			
+			  document.getElementById('start02').onclick= function()
+			{
+				modal02.style.display=shade.style.display= 'block';
+            };
+            document.getElementById('close02').onclick= function()
+			{
+				modal02.style.display=shade.style.display= 'none';
+            };
+			
+			  document.getElementById('start03').onclick= function()
+			{
+				modal03.style.display=shade.style.display= 'block';
+            };
+            document.getElementById('close03').onclick= function()
+			{
+				modal03.style.display=shade.style.display= 'none';
+            };
+        </script>	
+			
+				<div class="movieTitle"><h1>Book Club</h1></div>
+					<div class="review">
+				
+					<table align="center" width="100%">
+						<tr>
+							<td align="center">
+					<div class="rating" align="center">
+					<strong>90%</strong><br/>
+					Viewer Choice<br/>
+					Rater : 40,159<div class="Like" onmousedown="LikeChoice()"></div><div class="Dislike"onmousedown="DislikeChoice()"></div>
+				</div>
+				<div class="rating" align="center">
+					<strong>89%</strong><br/>
+					Acting<br/>
+					Rater : 37,093<div class="Like" onmousedown="LikeAct()"></div><div class="Dislike"onmousedown="DislikeAct()"></div>
+				</div>
+				<div class="rating" align="center">
+					<strong>92%</strong><br/>
+					Cinematography<br/>
+					Rater : 51,152
+					<div class="Like" onmousedown="LikeCine()"></div><div class="Dislike"onmousedown="DislikeCine()"></div>
+				</div>
+				<div class="rating" align="center">
+					<strong>92%</strong><br/>
+					Music<br/>
+					Rater : 39,101
+					<div class="Like" onmousedown="LikeMusic()"></div><div class="Dislike"onmousedown="DislikeMusic()"></div>
+				</div>
+						</td>
+						</tr>
+					</table>
+					<h2>Reviews</h2>
+				</div>
+				<div class="MovieInfo">
+					<div class="movieTrailer">
+						<iframe width="100%" height="480" src="https://www.youtube.com/embed/LDxgPIsv6sY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					</div>
+
+					
+					<div class="dload">
+					<img src="../img/dl.gif"/ width="200px" height="100px" onclick="openWin()">
+					<h2 onclick="openWin1()">DOWNLOAD</h2>
+					</div>
+
+					
+				
+					<div class="Info">
+					<h2>Movie Information</h2>
+					<h4>Genre:</h4>   Comedy</br>
+					<h4>Duration:</h4>91 min</br>
+					<h4>Airing Date:</h4> 18 May 2018 (USA) </br>
+					<h4>Production:</h4> Apartment Story, June Pictures </br>
+					<h4>Country:</h4> Santa Clarita, California, USA</br>
+					</div>
+					<div class="Info">
+					<h2>Behind the Scene</h2>
+					<h4>Director/s:</h4>   Bill Holderman</br>
+					<h4>Writer/s:</h4>  Bill Holderman, Erin Simms</br>
+					<h4>Casts:</h4>  Diane Keaton, Jane Fonda, Candice Bergen  </br>
+					</div>
+					
+					<div class="synopsis">
+					<h2>Synopsis</h2>
+					<p>Four lifelong friends have their lives forever changed after reading 50 Shades of Grey in their monthly book club.</p></div>
+				
+				<div class="Comment">
+					<h2>Comment Section</h2>
+					<form onsubmit="confirmInput()" action="">
+					<input type="text" value="" id="fname" placeholder="Comment here.." size="50" class="commenthere">
+					<input type="submit" class="commenthere" >
+				</form>
+					<hr/><p><span class="commenter">ShadyPupWhisperer :</span>this just looks like a fun movie for a chill afternoon out with friends.</p>
+					<hr/><p><span class="commenter">Harrison Neoh  :</span> That awkward moment when you're the only "Academy Award Nominee" in the room.</p>
+					<hr/><p><span class="commenter">ツ H m m m m N i c e B i k e ツ  :</span> Seems dumb but Mary Steenburgen still looks great though.</p>
+					<hr/><p><span class="commenter">TreeVlogs :</span> This movie reminds me of "The First Wives Club" .  I'm dating myself but that was my favorite movie! Plus  they're reading a book that  actually exists so I think it's going to be funny.</p>
+					<hr/><p><span class="commenter">Leandro G. :</span> God , why the extreme filter / color corrector ??  They are beautiful , amazing and beloved actresses , who cares the age. Stop with the shitty dream/i can't see a shit/color corrector/ remove age thing. Looks a fun movie!!!!</p>
+					<hr/><p><span class="commenter">Official Filmilen  :</span> Fifty Shades of Book Club..</p>
+				</div>
+				
+				
+				</div>
+				</div>
+			
+				
+<div class="before">
+</div>
+
+<div class="contact" align="center">
+		<div class="margin">
+ <H2>Follow us on social media</h2>
+
+		<hr><BR/>
+			
+			<a href="https://www.facebook.com"><img alt="icnfacebook" src="../img/icnfaceBook.png"/></a>
+			<a href="https://www.twitter.com"><img alt="icntwitter" src="../img/icntwitter.png"/></a>
+			<a href="https://www.tumblr.com"><img alt="icntmblr" src="../img/icntmblr.png"/></a>
+			<a href="https://www.linkedin.com"><img alt="icnin" src="../img/icnin.png"/></a>
+			<a href="https://www.google.com"><img alt="icngoogle" src="../img/icngoogle.png"/></a>
+
+		</div>
+		</div>
+		<div class="margin">
+	
+		</div>
+	<footer>
+			All Rights Reserved 2018 <div id="txt"></div>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,223 @@
+
+<html>
+	<head>
+		<title>Director: Peter Rabbit</title>
+		<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+		<link rel="shortcut icon" href="../img/headLogo.png"/>
+		
+		<script src="../js/script.js"></script>
+	</head>
+	<body onload="startTime();">
+		<header>
+			<div class="margin">
+			<div class="WebTitle" id="margin"><img src="../img/logo.png" height="40"/>DIRECTOR<br/><span class="motto">You watch, you decide.</span></div>
+				<div class="nav">
+					<label for="toogle">&#9776;</label>
+					<input type="checkbox" id="toogle"/>
+					<div class="menu">
+						<ul>
+							<a href="../index.html"><li class="firstchild">Home</li></a>
+							<a href="../Movies.html"><li id="act">Movies</li></a>
+							<a href="../ContactUS.html"><li>Contact Us</li></a>
+							<a href="../about.html"><li>About</li></a>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+		
+			
+		<div id="shade"></div>
+        <div id="modal" >
+			<div class="closeThis">X</div>
+            <img src="../img/movPeterRabbit.jpg" id="close" width="80%"/>
+        </div>
+		
+		<div id="shade01"></div>
+        <div id="modal01" >
+			<div class="closeThis01">X</div>
+            <img src="../img/movPeterRabbit01.jpg" id="close01" width="80%"/>
+        </div>
+		
+		<div id="shade02"></div>
+        <div id="modal02" >
+			<div class="closeThis02">X</div>
+            <img src="../img/movPeterRabbit02.jpg" id="close02" width="80%"/>
+        </div>
+		<div id="shade03"></div>
+        <div id="modal03" >
+			<div class="closeThis03">X</div>
+            <img src="../img/movPeterRabbit03.jpg" id="close03" width="80%"/>
+        </div>
+		
+		<div class="margin" >
+			<div class="movBanner">
+			<img src="../img/movPeterRabbit.jpg" width="100%" id="start"class="ban">
+			<img src="../img/movPeterRabbit01.jpg" width="100%" id="start01" class="side">
+			<img src="../img/movPeterRabbit02.jpg" width="100%" id="start02"class="side">
+			<img src="../img/movPeterRabbit03.jpg" width="100%" id="start03"class="side">
+		</div>
+				
+					
+		<script type="text/javascript">
+		 
+		 	var modal01= document.getElementById('modal01');
+            var shade01= document.getElementById('shade01');
+			var modal02= document.getElementById('modal02');
+            var shade02= document.getElementById('shade02');
+			var modal03= document.getElementById('modal03');
+            var shade03= document.getElementById('shade03');
+            var modal= document.getElementById('modal');
+            var shade= document.getElementById('shade');
+			
+            document.getElementById('start').onclick= function()
+			{
+				modal.style.display=shade.style.display= 'block';
+            };
+            document.getElementById('close').onclick= function()
+			{
+				modal.style.display=shade.style.display= 'none';
+            };
+			
+
+			  document.getElementById('start01').onclick= function()
+			{
+				modal01.style.display=shade.style.display= 'block';
+            };
+            document.getElementById('close01').onclick= function()
+			{
+				modal01.style.display=shade.style.display= 'none';
+            };
+			
+			  document.getElementById('start02').onclick= function()
+			{
+				modal02.style.display=shade.style.display= 'block';
+            };
+            document.getElementById('close02').onclick= function()
+			{
+				modal02.style.display=shade.style.display= 'none';
+            };
+			
+			  document.getElementById('start03').onclick= function()
+			{
+				modal03.style.display=shade.style.display= 'block';
+            };
+            document.getElementById('close03').onclick= function()
+			{
+				modal03.style.display=shade.style.display= 'none';
+            };
+        </script>	
+				
+				
+				
+				<div class="movieTitle"><h1>Peter Rabbit</h1></div>
+					<div class="review">
+				
+					<table align="center" width="100%">
+						<tr>
+							<td align="center">
+				<div class="rating" align="center">
+					<strong>88%</strong><br/>
+					Viewer Choice<br/>
+					Rater : 386<div class="Like" onmousedown="LikeChoice()"></div><div class="Dislike"onmousedown="DislikeChoice()"></div>
+				</div>
+				<div class="rating" align="center">
+					<strong>86%</strong><br/>
+					Acting<br/>
+					Rater : 322<div class="Like" onmousedown="LikeAct()"></div><div class="Dislike"onmousedown="DislikeAct()"></div>
+				</div>
+				<div class="rating" align="center">
+					<strong>88%</strong><br/>
+					Cinematography<br/>
+					Rater : 552<div class="Like" onmousedown="LikeCine()"></div><div class="Dislike"onmousedown="DislikeCine()"></div>
+				</div>
+				<div class="rating" align="center">
+					<strong>87%</strong><br/>
+					Music<br/>
+					Rater : 451
+					<div class="Like" onmousedown="LikeMusic()"></div><div class="Dislike"onmousedown="DislikeMusic()"></div>
+				</div>
+						</td>
+						</tr>
+					</table>
+					<h2>Reviews</h2>
+				</div>
+				<div class="MovieInfo">
+					<div class="movieTrailer">
+						<iframe width="100%" height="480" src="https://www.youtube.com/embed/7Pa_Weidt08" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					</div>
+
+					<div class="dload">
+					<img src="../img/dl.gif"/ width="200px" height="100px" onclick="openWin()">
+					<h2 onclick="openWin1()">DOWNLOAD</h2>
+					</div>
+				
+				
+					<div class="Info">
+					<h2>Movie Information</h2>
+					<h4>Genre:</h4>   Animation | Adventure | Comedy | Family | Fantasy </br>
+					<h4>Duration:</h4>95 min</br>
+					<h4>Airing Date:</h4> 9 February 2018 (USA) </br>
+					<h4>Production:</h4>  2.0 Entertainment, Animal Logic Entertainment, Animal Logic</br>
+					<h4>Country:</h4> USA </br>
+					</div>
+					<div class="Info">
+					<h2>Behind the Scene</h2>
+					<h4>Director/s:</h4> Will Gluck</br>
+					<h4>Writer/s:</h4> Rob Lieber (screen story by), Will Gluck  </br>
+					<h4>Casts:</h4> James Corden, Fayssal Bazzi, Domhnall Gleeson </br>
+					</div>
+					
+					<div class="synopsis">
+					<h2>Synopsis</h2>
+					<p>Based on the books by Beatrix Potter: Peter Rabbit (James Corden;) his threes sisters: Flopsy (Margot Robbie,) Mopsy (Elizabeth Debicki) and Cotton Tail (Daisy Ridley) and their cousin Benjamin (Colin Moody) enjoy their days harassing Mr McGregor in his vegetable garden. Until one day he dies and no one can stop them roaming across his house and lands for a full day or so. However, when one of Mr McGregor's relatives inherits the house and goes to check it out, he finds much more than he bargained for. What ensues, is a battle of wills between the new Mr McGregor and the rabbits. But when he starts to fall in love with Bea (Rose Byrne,) a real lover of all nature, his feelings towards them begin to change. But is it too late?
+					
+					</div>
+				
+				<div class="Comment">
+					<h2>Comment Section</h2>
+					<form onsubmit="confirmInput()" action="">
+					<input type="text" value="" id="fname" placeholder="Comment here.." size="50" class="commenthere">
+					<input type="submit" class="commenthere" >
+				</form>
+					<hr/><p><span class="commenter">Fiona Snow :</span> Wow, i mean,, there is so little effort out this that it's almost beautiful.</p>
+					<hr/><p><span class="commenter">Auden  :</span> Beatrix Potter is rolling in her grave.</p>
+					<hr/><p><span class="commenter">Daniel Tan :</span> Am i the only one who enjoyed this!</p>
+					<hr/><p><span class="commenter">Paul Love :</span> James Corden is not a very nice person,,,</p>
+					<hr/><p><span class="commenter">Ronaldo796 :</span> Now i know what people felt with the lorax movie, cause i grew up with this book, i'm so mad right now!</p>					
+					<hr/><p><span class="commenter">Allan Pangapalan :</span> I'm an animator and I really love what they did here.</p>
+					<hr/><p><span class="commenter">Ronald Hilario :</span> Not a fan of animated movies, but this movie is fine.</p>
+					<hr/><p><span class="commenter">Albert Simsons :</span> I remember my childhood days when I watched the movie.</p>
+					
+				</div>
+				
+				
+				</div>
+				</div>
+			
+				
+<div class="before">
+</div>
+
+<div class="contact" align="center">
+		<div class="margin">
+ <H2>Follow us on social media</h2>
+
+		<hr><BR/>
+			
+			<a href="https://www.facebook.com"><img alt="icnfacebook" src="../img/icnfaceBook.png"/></a>
+			<a href="https://www.twitter.com"><img alt="icntwitter" src="../img/icntwitter.png"/></a>
+			<a href="https://www.tumblr.com"><img alt="icntmblr" src="../img/icntmblr.png"/></a>
+			<a href="https://www.linkedin.com"><img alt="icnin" src="../img/icnin.png"/></a>
+			<a href="https://www.google.com"><img alt="icngoogle" src="../img/icngoogle.png"/></a>
+
+		</div>
+		</div>
+		<div class="margin">
+	
+		</div>
+		<footer>
+			All Rights Reserved 2018 <div id="txt"></div>
+		</footer>
+	</body>
+</html>
